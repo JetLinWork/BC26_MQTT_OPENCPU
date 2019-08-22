@@ -1,0 +1,27 @@
+OpenCPU_NB1_SDK_V1.3
+March 10  2019
+1.Update Functional Documents and AT Documents.
+2.Unrestricted the time interval limitation of ADC sampling. The minimum time interval can be configured as 10ms.
+3.Modified the implementation of Ql_OS_GetMessage for dedicated scenarios – ADC/Normal EINT/Normal TIMER. This function will
+not return after the callback is called. It will go to the message receive code again internally to fetch the next message.
+4.Fixed the bug that some GPIOs will hop during power on phase.
+5.Update the RTC、LWM2M and onenet example.
+6.Fixed the bug that json data cannot be receive in onenet.
+7.Supported upgrade APP bin file via DFOTA. 
+
+OpenCPU_NB1_SDK_V1.2
+Nov 20  2018
+1.Fixed the bug that json data cannot be processed in TCP/UDP.
+2.Fixed the bug that change the RIL interface of network protocol to solve the problem of memory leakage.
+3.Optimized the behavior to obtain receiving format in TCP/UDP.
+4.Fixed the bug that the front packet data is covered by the last packet data in the onenet of write request from OneNET platform or
+Application Server.
+5.Fixed the bug that the module will crash when frequent using AT+QRST.
+6.Fixed the bug that -4(RIL_AT_INVALID_PARAM)is returned when calling Ql_RIL_SendATCmd() to send non AT commands.
+7.Modified the buffer length of the RIL interface to 1400 bytes.
+
+OpenCPU_NB1_SDK_V1.1
+Aug 30 2018
+
+
+
