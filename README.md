@@ -1,5 +1,6 @@
-# Bc26OpenCPU    
-Advise: Please read ***Quectel_BC26-OpenCPU_User_Guide_V10*** in /doc ;
+# Bc26OpenCPU - MQTT    
+Advise: Please read ***Quectel_BC26-OpenCPU_User_Guide_V10*** in /doc ;      
+this project may not perfect in function, just a demo;It can connect to MQTT server ,subscribe topic ,publish or recieve messages in 0/1/2 qos;          
 ## quick use     
 >**make and download**      
 >> OPEN BC26_OpenCPU_NB1_SDK_V1.3/MS-DOS      
